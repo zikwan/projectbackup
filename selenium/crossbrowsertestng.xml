@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel ="tests" thread-count = "2" name = "crossBrowsertestingSuite">
+ 
+ <test thread-count="5" name="Testsuite1">
+<parameter name= "browser" value = "chrome"></parameter>
+<classes>
+       <class name="testngframework.MultipleBrowserSelect43"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+
+<test thread-count="5" name="Testsuite2">
+<parameter name= "browser" value = "Firefox"></parameter>
+<classes>
+      <class name="testngframework.MultipleBrowserSelect43"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

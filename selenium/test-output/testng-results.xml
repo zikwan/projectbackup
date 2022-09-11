@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-02T18:47:59 IST" name="Default suite" finished-at="2022-09-02T18:49:09 IST" duration-ms="69801">
+    <groups>
+    </groups>
+    <test started-at="2022-09-02T18:47:59 IST" name="Default test" finished-at="2022-09-02T18:49:09 IST" duration-ms="69801">
+      <class name="datadriventesting.HomePageTest">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:datadriventesting.HomePageTest@32ee6fee]" started-at="2022-09-02T18:48:01 IST" name="BeforeMethod" finished-at="2022-09-02T18:48:07 IST" duration-ms="6043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="ValidateAddEmpTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadriventesting.HomePageTest@32ee6fee]" started-at="2022-09-02T18:48:07 IST" name="ValidateAddEmpTest" data-provider="data" finished-at="2022-09-02T18:48:23 IST" duration-ms="16455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ganesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KaKade]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAddEmpTest -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:datadriventesting.HomePageTest@32ee6fee]" started-at="2022-09-02T18:48:24 IST" name="aftermethod" finished-at="2022-09-02T18:48:24 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:datadriventesting.HomePageTest@32ee6fee]" started-at="2022-09-02T18:48:24 IST" name="BeforeMethod" finished-at="2022-09-02T18:48:29 IST" duration-ms="5272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="ValidateAddEmpTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadriventesting.HomePageTest@32ee6fee]" started-at="2022-09-02T18:48:29 IST" name="ValidateAddEmpTest" data-provider="data" finished-at="2022-09-02T18:48:45 IST" duration-ms="16045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAddEmpTest -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:datadriventesting.HomePageTest@32ee6fee]" started-at="2022-09-02T18:48:45 IST" name="aftermethod" finished-at="2022-09-02T18:48:45 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:datadriventesting.HomePageTest@32ee6fee]" started-at="2022-09-02T18:48:45 IST" name="BeforeMethod" finished-at="2022-09-02T18:48:53 IST" duration-ms="7791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="ValidateAddEmpTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadriventesting.HomePageTest@32ee6fee]" started-at="2022-09-02T18:48:53 IST" name="ValidateAddEmpTest" data-provider="data" finished-at="2022-09-02T18:49:09 IST" duration-ms="15909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sujeet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAddEmpTest -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:datadriventesting.HomePageTest@32ee6fee]" started-at="2022-09-02T18:49:09 IST" name="aftermethod" finished-at="2022-09-02T18:49:09 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- datadriventesting.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
